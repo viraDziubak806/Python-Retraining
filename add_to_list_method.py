@@ -2,10 +2,6 @@ def add_to_list(my_list, additional_item):
     """
         Adds an item or multiple items to list.
 
-        This function takes a list and an additional item as input. If the additional item
-        is a collection, it will be extended with each item from additional_item collection.
-        If the additional item is of any other type, it will be appended as a single element.
-
         Args:
             my_list (list): The list to which items will be added. This list will be modified in place.
             additional_item (any): The item or items to add to the list.
